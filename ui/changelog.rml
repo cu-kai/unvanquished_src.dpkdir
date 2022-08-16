@@ -1,0 +1,91 @@
+<rml>
+	<head>
+		<link type="text/template" href="/ui/shared/window.rml" />
+		<style>
+		panel {
+			width: 65%;
+			padding: 0.5em;
+		}
+		</style>
+	</head>
+	<body template="window" id="changelog" style="width:45em; margin: 1em;">
+		<h1>Der Bunker Unvanquished</h1>
+		<tabset>
+			<tab>
+				<img class="emoticon" src="/emoticons/official" />
+				<translate> Welcome</translate>
+			</tab>
+			<panel>
+				<translate><h1>Welcome to Der Bunker.</h1></translate>
+				<translate><h2>Server and Game Information</h2></translate>
+				<br />
+				<!-- FIXME: use a proper list (ul+li isn't supported as of now) -->
+				<translate><h3>Come chat to us:</h3></translate>
+				<indent>
+					• <translate emoticons>We are usually on Discord, for the invite please visit our website, zittrig.eu, which also contains a number of other Tremulous [bsuit] related links.</translate>
+				</indent>
+				<br /><br />
+				<translate><h3>Alternatively, chat to the Unvanquished devs:</h3></translate>
+				<indent>
+					• <translate>IRC and Matrix in <b>#unvanquished</b> and <b>#unvanquished-dev</b> on Libera.Chat</translate><br />
+					• <translate>The forum, <b>forums.unvanquished.net</b></translate><br />
+					<br />
+					• <translate>Discover more about Unvanquished in the wiki, <b>wiki.unvanquished.net</b></translate>
+				</indent>
+				<br />
+				<h2>Please check the changelogs</h2>
+				<h2>located left of this panel.</h2>
+				<h1> ← </h1>
+				<br /><br />
+				<translate><p>You can re-open this panel from the main menu or by reconnecting to the server.</p></translate>
+			</panel>
+			<tab>
+				<img class="emoticon" src="/emoticons/featured" />
+				<translate> 0.2-0.2.5 (0.53.1)</translate>
+			</tab>
+			<panel>
+				<translate><h1>Der Bunker Changelog</h1></translate>
+				<translate><h2>0.2.5 <b>CURRENT</b> (0.53.1)</h2></translate>
+				<br />
+				<translate><h3>SUDDEN DEATH</h3></translate>
+				<translate><p>Sudden Death has been reintroduced in an effort to shorten games a little. After a certain period of time, building is limited or outright disabled (depending on how the server is configured). During Sudden Death (mode 1) you may only rebuild one of the following:</p></translate>
+				<indent>
+					• <translate emoticons>[reactor] Reactor and [overmind] Overmind - these remain unchanged, you can always rebuild them if they are marked.</translate><br />
+					• <translate emoticons>[armoury] Armoury</translate><br />
+					• <translate emoticons>[medstat] Medistation</translate><br />
+					• <translate emoticons>[booster] Booster</translate>
+				</indent>
+				<br /><br />
+				<translate><h3>The following gameplay changes have also been made:</h3></translate>
+				<indent>
+					• <translate emoticons>[granger] Granger spit no longer traps you; it behaves like Tremulous granger spit and only slows you down instead.</translate><br />
+					• <translate emoticons>[advmarauder] Advanced Marauder zaps have been nerfed so it's no longer possible to kill the [reactor] Reactor with only 3-4 zaps.</translate>
+				</indent>
+				<br /><br />
+				<h3>The following supplemental changes have been made:</h3>
+				<indent>
+					<translate><p>• The 0.2.1 release added this changelog facility.</p></translate>
+					<translate><p>• The 0.2.2 release added fixes from Unvanquished 0.53.1.</p></translate>
+					<translate><p>• The 0.2.3 release fixed some formatting of this log, and added a button to the main menu to open it.</p></translate>
+					<translate><p>• The 0.2.4 release added the clientside code required for MOD_SLAP support.</p></translate>
+					<translate><p>• The 0.2.5 release merged changes from master, including a more stable version of RmlUi.</p></translate>
+				</indent>
+			</panel>
+			<tab>
+				<img class="emoticon" src="/emoticons/check" />
+				<translate> 0.1 (0.52.1)</translate>
+			</tab>
+			<panel>
+				<translate><h1>Der Bunker Changelog</h1></translate>
+				<translate><h2>0.1 (based on 0.52.1)</h2></translate>
+				<br />
+				<translate><h3>Team Status</h3></translate>
+				<translate emoticons>Team Status has been ported from Tremulous - this will show you the status (including health percentage) of your Main Building [overmind] / [reactor], as well as the number of Spawns [telenode] / [egg], the number of Armouries [armoury] and Medistations [medstat] (Humans) as well as your number of Boosters [booster] (Aliens). For both teams, this additionally shows the number of Miners [drill] / [leech].</translate><br /><br />
+				<translate>Additionally, a number of bot improvements in Unvanquished "master" branch are present in this release.</translate>
+			</panel>
+		</tabset>
+		<buttonbar>
+			<button onclick='Events.pushevent("hide changelog", event)'><translate>Close</translate></button>
+		</buttonbar>
+	</body>
+</rml>
