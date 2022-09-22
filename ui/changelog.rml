@@ -69,6 +69,7 @@
 					<translate><p>• The 0.2.3 release fixed some formatting of this log, and added a button to the main menu to open it.</p></translate>
 					<translate><p>• The 0.2.4 release added the clientside code required for MOD_SLAP support.</p></translate>
 					<translate><p>• The 0.2.5 release merged changes from master, including a more stable version of RmlUi.</p></translate>
+					<translate><p>• The 0.2.6 release merged even more changes from master. g_maxMiners now available, as well as voting to add or remote bots from teams.</p></translate>
 				</indent>
 			</panel>
 			<tab>
