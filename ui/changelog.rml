@@ -41,11 +41,11 @@
 			</panel>
 			<tab>
 				<img class="emoticon" src="/emoticons/featured" />
-				<translate> 0.2-0.2.6 (0.53.2)</translate>
+				<translate> 0.2-0.2.7 (0.53.2)</translate>
 			</tab>
 			<panel>
 				<translate><h1>Der Bunker Changelog</h1></translate>
-				<translate><h2>0.2.6 <b>CURRENT</b> (0.53.2)</h2></translate>
+				<translate><h2>0.2.7 <b>CURRENT</b> (0.53.2)</h2></translate>
 				<br />
 				<translate><h3>SUDDEN DEATH</h3></translate>
 				<translate><p>Sudden Death has been reintroduced in an effort to shorten games a little. After a certain period of time, building is limited or outright disabled (depending on how the server is configured). During Sudden Death (mode 1) you may only rebuild one of the following:</p></translate>
@@ -69,7 +69,7 @@
 					<translate><p>• The 0.2.3 release fixed some formatting of this log, and added a button to the main menu to open it.</p></translate>
 					<translate><p>• The 0.2.4 release added the clientside code required for MOD_SLAP support.</p></translate>
 					<translate><p>• The 0.2.5 release merged changes from master, including a more stable version of RmlUi.</p></translate>
-					<translate><p>• The 0.2.6 release merged even more changes from master. g_maxMiners now available, as well as voting to add or remote bots from teams.</p></translate>
+					<translate><p>• The 0.2.6 & 0.2.7 releases merged even more changes from master. g_maxMiners now available, as well as voting to add or remote bots from teams.</p></translate>
 					<indent><translate><p>Furthermore, flamebombs now cost 400 credits and are unlocked later, and the price of regular grenades is reduced and they are available earlier.</p></translate></indent>
 				</indent>
 			</panel>
