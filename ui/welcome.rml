@@ -41,11 +41,11 @@
 			</panel>
 			<tab>
 				<img class="emoticon" src="/emoticons/featured" />
-				<translate quake> ^20.3.1 (0.54.0)</translate>
+				<translate quake> ^20.3.2 (0.54.0)</translate>
 			</tab>
 			<panel>
 				<h1><translate>Der Bunker Changelog</translate></h1>
-				<h2><translate quake>^30.3.1 ^7(CURRENT VERSION)</translate></h2>
+				<h2><translate quake>^30.3.2 ^7(CURRENT VERSION)</translate></h2>
 				<h3><translate quake>^5on Unvanquished 0.54.0</translate></h3>
 				<br />
 				<translate><h3>SUDDEN DEATH</h3></translate>
@@ -58,7 +58,8 @@
 					• <translate emoticons>[drill] ^3*NEW* in Bunker 0.3.1:^; Drill</translate>
 				</indent>
 				<br />
-				<translate><p>During Sudden Death mode 2, nothing may be rebuilt.</p></translate>
+				<translate><p>During Sudden Death mode 2, nothing may be rebuilt.</p></translate><br />
+				<translate><p>Bunker 0.3.2 updates the server & client to the latest upstream</p></translate>
 			</panel>
 		</tabset>
 		<buttonbar>
